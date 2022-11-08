@@ -1,0 +1,1 @@
+Paste de exercício criado única e exclusivamente para desenvolver novos conhecimentos e praticar para obter experiências e Know how como programador e desenvolvedor.
