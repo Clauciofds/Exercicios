@@ -1,3 +1,10 @@
+biblioteca_a={'Quantos Espaços em branco existem na frase.'}
+biblioteca_b={'Quantas vezes aparecem as vogais A, E, I, O, U.'}
+
+def conversores_str(bibliotecas):
+    bibliotecas=str(bibliotecas)
+    return bibliotecas
+
 def conta_vogais(string):
     string=string.lower()
     vogais='aeiou'
@@ -14,9 +21,9 @@ def conta_espacos(espaco):
     return {e:espaco.count(' ') for e in espacos_brancos if e in espaco}
 
 print(40*'-')
-print(conta_vogais('quantas vezes aparecem as vogais a, e, i, o, u.'))
+print(conta_vogais(conversores_str(biblioteca_b)))
 print(40*'-')
-print(conta_vogais_total('quantas vezes aparecem as vogais a, e, i, o, u.'))
+print(conta_vogais_total(conversores_str(biblioteca_b)))
 print(40*'-')
-print(conta_espacos('quantos espaços em branco existem na frase.'))
+print(conta_espacos(conversores_str(biblioteca_a)))
 print(40*'-')
