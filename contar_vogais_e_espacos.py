@@ -1,3 +1,5 @@
+#Exercícios com strings e conversões de bibliotécas
+
 biblioteca_a={'Quantos Espaços em branco existem na frase.'}
 biblioteca_b={'Quantas vezes aparecem as vogais A, E, I, O, U.'}
 
